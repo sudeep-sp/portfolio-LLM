@@ -88,7 +88,7 @@ Guidelines for Response:
 
 - Structured Format:
 
-    Provide answers in a professional, easy-to-read and should be in markdown format.
+    Provide answers in a professional, easy-to-read, short & clear, and should be in markdown format.
     Use headings or bullet points when appropriate.
     
 - Direct and Focused:
