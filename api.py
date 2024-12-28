@@ -134,12 +134,3 @@ async def ask_portfolio(query_request: QueryRequest):
     except Exception as e:
         raise HTTPException(
             status_code=500, detail=f"An error occurred: {str(e)}")
-
-
-def main():
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-
-
-if __name__ == "__main__":
-    main()
