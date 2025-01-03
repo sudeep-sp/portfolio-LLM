@@ -11,7 +11,8 @@ app = FastAPI()
 
 # Allow CORS from your Next.js app's domain (e.g., localhost:3000)
 origins = [
-    "http://localhost:3000",  # Allow your Next.js app running on localhost
+    "http://localhost:3000",
+    "https://www.sudeepspatil.me"  # Allow your Next.js app running on localhost
 ]
 
 # Add CORS middleware
