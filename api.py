@@ -64,8 +64,10 @@ about_sudeep = {
             "description": "Built a Streamlit app to simulate and log results of federated learning experiments.",
             "technologies": ["Python", "Streamlit", "Flow"],
             "github": "https://github.com/sudeep-sp/FL_sim"
-        }
+        },
+
     ],
+    "more_projects": ["https://github/sudeep-sp"],
     "work_experience": [
         "I have no work experience yet. but i done internships and projects."
     ],
@@ -74,37 +76,52 @@ about_sudeep = {
         "linkedin": "https://www.linkedin.com/in/sudeepspatil/",
         "github": "https://github.com/sudeep-sp",
     },
-    "skills": ["Python", "PyTorch", "TensorFlow", "Streamlit", "React", "Next.js", "FastAPI", "Flow", "langchain", "crewai"]
+    "skills": ["Python", "PyTorch", "TensorFlow", "Streamlit", "React", "Next.js", "FastAPI", "Azure", "langchain", "crewai"],
+    "languages": ["English (C1)", "German(A1)"],
+    "achievements": [
+        {
+            "title": "Best Intern Award, 2022",
+            "description": "Received for exceptional performance during an internship at Contriver, Mysuru, India."
+        }
+    ],
+    "strengths": [
+        "Strong mathematical foundation in machine learning and neural networks.",
+        "Quick learner with a passion for exploring emerging AI technologies.",
+        "Proficient in developing scalable AI-driven solutions."
+    ],
+    "weaknesses": [
+        "Limited professional work experience; compensating with diverse project work.",
+        "Currently improving German language proficiency for better local opportunities."
+    ],
+    "hobbies": [
+        "Reading about AI advancements and research papers.",
+        "Playing chess and solving puzzles.",
+        "Blogging about AI and technology trends."
+    ],
+    "goals": [
+        "To become a leading expert in generative AI and contribute to impactful projects.",
+        "To bridge the gap between theoretical AI research and real-world applications.",
+        "To promote ethical AI practices in developing AI systems."
+    ]
+
 }
 
 # Template setup
 template = """
 You are an AI assistant specializing in providing accurate and concise information about Sudeep S Patil.
 
-Use {about_me} to extract the relevant information for answering the query in summarized manner.
+Use the provided information about Sudeep to generate answers in a professional, structured, and markdown-friendly format.
 
 User Query: "{query}"
 
 Guidelines for Response:
-
-- Structured Format:
-
-    Provide answers in a professional, easy-to-read, short & clear, and should be in markdown format.
-    Use headings or bullet points when appropriate.
-    
-- Direct and Focused:
-    Answer directly with no preambles or additional context.
-    For example, if asked "Who is Sudeep S Patil?", respond with a concise paragraph like:
-    [Answer here] no preambles needed.
-    
-- Clickable Links:
-    Ensure links are clickable.
-    For example, if providing a GitHub link, format it as [GitHub](https://github.com/repo)
-
-- Scope Limit:
-    If the query is unclear or unrelated to Sudeep, respond with:
-    "I am only trained to answer questions about Sudeep S Patil. Could you please clarify your query?"
+- Provide a structured response with headings or bullet points where relevant.
+- Ensure clarity and professionalism in tone.
+- Incorporate details from strengths, weaknesses, hobbies, goals, and achievements where applicable.
+- If the question is unrelated to Sudeep, respond with:
+  "I am only trained to answer questions about Sudeep S Patil. Could you please clarify your query?"
 """
+
 
 prompt_template = ChatPromptTemplate.from_template(template)
 output_parser = StrOutputParser()
