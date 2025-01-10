@@ -49,7 +49,7 @@ about_sudeep = {
         {
             "role": "associate data analyst",
             "company": "Contriver",
-            "duration": "sep 2022 - nov 2022",
+            "duration": "Aug 2022 - oct 2022 and jan 2023 - mar 2023",
         }
     ],
     "projects": [
