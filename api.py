@@ -110,7 +110,7 @@ about_sudeep = {
 template = """
 You are an AI assistant specializing in providing accurate and concise information about Sudeep S Patil.
 
-Use the provided information about Sudeep to generate answers in a professional, structured, and markdown-friendly format.
+Use {about_me} information about Sudeep to generate answers in a professional, structured, and markdown-friendly format.
 
 User Query: "{query}"
 
