@@ -47,7 +47,7 @@ about_sudeep = {
     ],
     "internships": [
         {
-            "role": "associate data analyst",
+            "role": "data analyst intrern",
             "company": "Contriver",
             "duration": "Aug 2022 - oct 2022 and jan 2023 - mar 2023",
         }
